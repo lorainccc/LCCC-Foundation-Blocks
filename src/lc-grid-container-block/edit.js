@@ -11,7 +11,7 @@ import { __ } from '@wordpress/i18n';
  *
  * @see https://developer.wordpress.org/block-editor/reference-guides/packages/packages-block-editor/#useblockprops
  */
-import { useBlockProps } from '@wordpress/block-editor';
+import { InnerBlocks, useBlockProps } from '@wordpress/block-editor';
 
 /**
  * Lets webpack process CSS, SASS or SCSS files referenced in JavaScript files.
@@ -30,9 +30,14 @@ import './editor.scss';
  * @return {Element} Element to render.
  */
 export default function Edit() {
+
+	const blockProps = useBlockProps( {
+		className: 'grid-container',
+	} );
+
 	return (
-		<div { ...useBlockProps() }>
-			{ <InnerBlocks /> }
+		<div { ...blockProps }>
+			<InnerBlocks/>
 		</div>
 	);
 }

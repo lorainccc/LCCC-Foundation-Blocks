@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name:       Lccc Foundation Blocks
+ * Plugin Name:       LCCC Foundation Blocks
  * Description:       Example block scaffolded with Create Block tool.
  * Requires at least: 6.6
  * Requires PHP:      7.2
@@ -28,5 +28,6 @@ function lc_foundation_blocks_init() {
 	register_block_type( __DIR__ . '/build/lc-grid-container-block' );
 	register_block_type( __DIR__ . '/build/lc-grid-margin-block' );
 	register_block_type( __DIR__ . '/build/lc-cell-block' );
+	register_block_type( __DIR__ . '/build/lc-full-width-block' );
 }
 add_action( 'init', 'lc_foundation_blocks_init' );

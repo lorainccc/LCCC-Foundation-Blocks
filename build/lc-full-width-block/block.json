@@ -1,19 +1,16 @@
 {
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 3,
-  "name": "lccc-foundation-blocks/lc-grid-container-block",
+  "name": "lccc-foundation-blocks/lc-full-width-block",
   "version": "0.1.0",
-  "title": "LCCC Grid Container Block",
+  "title": "LCCC Full Width Block",
   "category": "design",
-  "icon": "text-page",
-  "description": "Grid Container Block",
+  "icon": "book",
+  "description": "Full Width Block",
   "example": {},
   "supports": {
     "html": false
   },
-  "allowedBlocks": [
-    "lccc-foundation-blocks/lc-grid-margin-block"
-  ],
   "textdomain": "lccc-foundation-blocks",
   "editorScript": "file:./index.js",
   "editorStyle": "file:./index.css",

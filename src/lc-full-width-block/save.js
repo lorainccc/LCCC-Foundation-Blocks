@@ -18,7 +18,7 @@ import { InnerBlocks, useBlockProps } from '@wordpress/block-editor';
 export default function save() {
 
 	const blockProps = useBlockProps.save( {
-		className: 'grid-container',
+		className: 'lc-full-row',
 	} );
 
 	return (

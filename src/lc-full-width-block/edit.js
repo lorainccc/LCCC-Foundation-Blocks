@@ -32,7 +32,7 @@ import './editor.scss';
 export default function Edit() {
 
 	const blockProps = useBlockProps( {
-		className: 'cell',
+		className: 'lc-full-row',
 	} );
 
 	return (

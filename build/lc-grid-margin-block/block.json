@@ -11,6 +11,9 @@
   "supports": {
     "html": false
   },
+  "allowedBlocks": [
+    "lccc-foundation-blocks/lc-cell-block"
+  ],
   "textdomain": "lccc-foundation-blocks",
   "editorScript": "file:./index.js",
   "editorStyle": "file:./index.css",
