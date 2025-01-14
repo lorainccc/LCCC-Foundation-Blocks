@@ -1,0 +1,20 @@
+/*
+*
+*
+*/
+
+div.wp-block-lccc-foundation-blocks-lc-full-width-block, 
+div.wp-block-lccc-foundation-blocks-lc-grid-container-block, 
+div.wp-block-lccc-foundation-blocks-lc-grid-margin-block, 
+div.wp-block-lccc-foundation-blocks-lc-cell-block{
+    padding: 2px;
+    margin: 1px 0;
+}
+
+div.wp-block-lccc-foundation-blocks-lc-full-width-block{border: 2px dotted #c3c3c3;}
+
+div.wp-block-lccc-foundation-blocks-lc-grid-container-block{border: 2px dotted #a4b2df;}
+
+div.wp-block-lccc-foundation-blocks-lc-grid-margin-block{border: 2px dotted #dfa4bb;}
+
+div.wp-block-lccc-foundation-blocks-lc-cell-block{border: 2px dotted #b7dfa4;}

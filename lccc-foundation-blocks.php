@@ -31,3 +31,13 @@ function lc_foundation_blocks_init() {
 	register_block_type( __DIR__ . '/build/lc-full-width-block' );
 }
 add_action( 'init', 'lc_foundation_blocks_init' );
+
+// Load Admin Styles
+
+function lorainccc_foundation_blocks_wp_admin_scripts() {
+
+	wp_enqueue_style('lorainccc-foundation-blocks-styles', plugin_dir_url( __FILE__ ) . 'css/lc_block_admin_styles.css', 20);
+	
+}
+
+add_action( 'admin_enqueue_scripts', 'lorainccc_foundation_blocks_wp_admin_scripts' );
