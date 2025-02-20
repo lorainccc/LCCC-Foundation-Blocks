@@ -24,6 +24,9 @@ if ( ! defined( 'ABSPATH' ) ) {
  *
  * @see https://developer.wordpress.org/reference/functions/register_block_type/
  */
+
+ // to build the directories below from terminal run ' npm run build '
+
 function lc_foundation_blocks_init() {
 	register_block_type( __DIR__ . '/build/lc-grid-container-block' );
 	register_block_type( __DIR__ . '/build/lc-grid-margin-block' );

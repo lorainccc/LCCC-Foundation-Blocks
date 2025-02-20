@@ -37,8 +37,8 @@ export default function Edit() {
 		
 
 	return (
-		<p { ...blockProps }>
+		<div { ...blockProps }>
 			<InnerBlocks />
-		</p>
+		</div>
 	);
 }
