@@ -7,16 +7,6 @@
 	"category": "widgets",
 	"description": "Empty Container Block.",
 	"example": {},
-	"attributes": {
-		"height": {
-			"type": "string",
-			"default": "100px"
-		},
-		"width": {
-			"type": "string",
-			"default": "100px"
-		}
-	},
 	"supports": {
 		"anchor": true,
 		"html": false,
@@ -26,7 +16,11 @@
 		},
 		"spacing": {
 			"margin": true,
-			"padding": true
+			"padding": true,
+			"__experimentalDefaultControls": {
+				"margin": false,
+				"padding": false
+			}
 		},
 		"interactivity": {
 			"clientNavigation": true
@@ -36,10 +30,9 @@
 			"radius": true,
 			"style": true,
 			"width": true
-			},
+		},
 		"shadow": true
-		}		
-	},
+	},		
 	"textdomain": "lccc-foundation-blocks",
 	"editorScript": "file:./index.js",
 	"editorStyle": "file:./index.css",

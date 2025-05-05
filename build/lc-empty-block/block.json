@@ -8,6 +8,7 @@
   "description": "Empty Container Block.",
   "example": {},
   "supports": {
+    "anchor": true,
     "html": false,
     "color": {
       "background": true,
@@ -15,20 +16,20 @@
     },
     "spacing": {
       "margin": true,
-      "padding": true
+      "padding": true,
+      "__experimentalDefaultControls": {
+        "margin": false,
+        "padding": false
+      }
+    },
+    "interactivity": {
+      "clientNavigation": true
     },
     "__experimentalBorder": {
       "color": true,
       "radius": true,
       "style": true,
-      "width": true,
-      "__experimentalSkipSerialization": true,
-      "__experimentalDefaultControls": {
-        "color": true,
-        "radius": true,
-        "style": true,
-        "width": true
-      }
+      "width": true
     },
     "shadow": true
   },

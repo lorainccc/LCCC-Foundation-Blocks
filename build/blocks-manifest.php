@@ -13,6 +13,7 @@ return array(
 			
 		),
 		'supports' => array(
+			'anchor' => true,
 			'html' => false,
 			'color' => array(
 				'background' => true,
@@ -20,20 +21,20 @@ return array(
 			),
 			'spacing' => array(
 				'margin' => true,
-				'padding' => true
+				'padding' => true,
+				'__experimentalDefaultControls' => array(
+					'margin' => false,
+					'padding' => false
+				)
+			),
+			'interactivity' => array(
+				'clientNavigation' => true
 			),
 			'__experimentalBorder' => array(
 				'color' => true,
 				'radius' => true,
 				'style' => true,
-				'width' => true,
-				'__experimentalSkipSerialization' => true,
-				'__experimentalDefaultControls' => array(
-					'color' => true,
-					'radius' => true,
-					'style' => true,
-					'width' => true
-				)
+				'width' => true
 			),
 			'shadow' => true
 		),
