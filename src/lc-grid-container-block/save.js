@@ -4,7 +4,7 @@
  *
  * @see https://developer.wordpress.org/block-editor/reference-guides/packages/packages-block-editor/#useblockprops
  */
-import { InnerBlocks, useBlockProps } from '@wordpress/block-editor';
+import { useBlockProps } from '@wordpress/block-editor';
 
 /**
  * The save function defines the way in which the different attributes should
@@ -16,14 +16,9 @@ import { InnerBlocks, useBlockProps } from '@wordpress/block-editor';
  * @return {Element} Element to render.
  */
 export default function save() {
-
-	const blockProps = useBlockProps.save( {
-		className: 'grid-container',
-	} );
-
 	return (
-		<div { ...blockProps }>
-			<InnerBlocks.Content />
-		</div>
+		<p { ...useBlockProps.save() }>
+			{ 'Lccc Foundation Blocks – hello from the saved content!' }
+		</p>
 	);
 }

@@ -1,12 +1,12 @@
 {
   "$schema": "https://schemas.wp.org/trunk/block.json",
   "apiVersion": 3,
-  "name": "lccc-foundation-blocks/lc-cell-block",
+  "name": "create-block/lccc-foundation-blocks",
   "version": "0.1.0",
-  "title": "LCCC Cell Container Block",
-  "category": "design",
-  "icon": "book",
-  "description": "Cell Container Block",
+  "title": "Lccc Foundation Blocks",
+  "category": "widgets",
+  "icon": "smiley",
+  "description": "Example block scaffolded with Create Block tool.",
   "example": {},
   "supports": {
     "html": false
